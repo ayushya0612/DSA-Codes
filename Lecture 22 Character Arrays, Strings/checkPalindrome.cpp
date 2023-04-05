@@ -47,7 +47,10 @@ int main(){
     else
     {
         cout << "NOT PALINDROME" << endl;
+
     }
+    
+    
     
     
 }

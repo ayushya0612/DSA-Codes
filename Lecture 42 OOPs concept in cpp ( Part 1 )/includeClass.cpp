@@ -6,6 +6,6 @@ int main(){
     Hero h1;
 
     cout << "size of h1: " << sizeof(h1) << endl; 
-    cout << ""
+       
 
 }
