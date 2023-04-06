@@ -14,6 +14,7 @@ class Hero{
         cout << "Constructor formed" << endl;
     }
     
+    // Getter and Setter
     int getHealth(){
         return health;
     }
