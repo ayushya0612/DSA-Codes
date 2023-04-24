@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int n;
+    int m;
     
     return 0;
 }
