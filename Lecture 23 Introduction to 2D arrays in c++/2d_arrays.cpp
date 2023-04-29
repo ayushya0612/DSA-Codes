@@ -4,9 +4,7 @@ using namespace std;
 ////SPIRAL PRINT 
 int spiralOrder(int arr[][4], int n, int m){
     int row = matrix.size();
-    int col = matrix[0].size();
-
-    
+    int col = matrix[0].size();    
 
 }
 int main(){
