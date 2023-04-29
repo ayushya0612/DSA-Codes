@@ -35,6 +35,7 @@ int main(){
     cout << endl;  
 
     int ans = spriralOrder(arr, 3, 4);
+    int n;
     
 }
     
