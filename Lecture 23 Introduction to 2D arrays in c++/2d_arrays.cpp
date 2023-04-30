@@ -257,4 +257,4 @@ int main(){
 // } 
 
 
-// void comment 
+// void comment dont cosnsider
