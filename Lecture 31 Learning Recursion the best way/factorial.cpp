@@ -20,7 +20,7 @@ int main(){
     int ans = factorial(n);
     cout << ans;
 
-    return 0;
+    
     
 
 
