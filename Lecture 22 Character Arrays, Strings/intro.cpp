@@ -10,4 +10,5 @@ int main()
     cout << "Your name is " << name << endl; 
 
     cout << 1 << endl;
+    cout << endl;
 }
