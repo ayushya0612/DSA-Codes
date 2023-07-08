@@ -2,41 +2,96 @@
 using namespace std;
 
 ////SPIRAL PRINT 
-int spiralOrder(int arr[][4], int n, int m){
-    int row = matrix.size();
-    int col = matrix[0].size();    
+// vector<int> spiralOrder(int arr[][4], int n, int m){
+//     int row = 3;
+//     int col = 4;  
 
-}
-int main(){
+//     int count = 0;
+//     int total = row*col-1;
+
+//     int startingRow = 0;
+//     int startingCol = 0;
+//     int endingRow = row-1;
+//     int endingCol = col-1;
+
+//     vector<int> ans;
+
+//     while(count < total){
+
+//         // Printing starting row
+//         for (int index = 0; count < total && index <= endingCol; index++)
+//         {   
+//             ans.push_back(arr[startingRow][index]);
+//             count++;
+//         }
+//         startingRow++;
+
+//         // Printing ending Col
+//         for (int index = startingRow; count < total && index <= endingRow; index++)
+//         {
+//             ans.push_back(arr[index][endingCol]);
+//             count++;
+//         }
+//         endingCol--;
+ 
+//         // Printing ending Row
+//         for (int index = endingCol; count < total && index >= startingCol; index--)
+//         {
+//             ans.push_back(arr[endingRow][index] );
+//             count++;
+//         }
+//         endingRow--;
+
+//         // Printing starting Col
+//         for (int index = endingRow ; count < total && index >= startingRow; index--)
+//         {
+//             ans.push_back(arr[index][startingCol]);
+//             count++;
+//         }
+//         startingCol++;
+                
+//     }   
+//     return ans;
+
+// }
+// int main(){
      
-    // input array
-    int arr[3][4];
-    cout << " Enter your matrix: "<< endl;
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            cin >> arr[i][j];
-        }
+//     // input array
+//     int arr[3][4];
+//     cout << " Enter your matrix: "<< endl;
+//     for (int i = 0; i < 3; i++)
+//     {
+//         for (int j = 0; j < 4; j++)
+//         {
+//             cin >> arr[i][j];
+//         }
          
-    }
-    cout << endl;
+//     }
+//     cout << endl;
 
-    // print array
-    cout << "The Matrix you have entered: " << endl;
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            cout << arr[i][j] << " ";
-        }
-        cout << endl;
-    }
-    cout << endl;  
+//     // print array
+//     cout << "The Matrix you have entered: " << endl;
+//     for (int i = 0; i < 3; i++)
+//     {
+//         for (int j = 0; j < 4; j++)
+//         {
+//             cout << arr[i][j] << " ";
+//         }
+//         cout << endl;
+//     }
+//     cout << endl;  
 
-    int ans = spriralOrder(arr, 3, 4);
+//     vector<int> answer = spiralOrder(arr, 3, 4);
+//     // spiral Printing of the given array
+//     cout << "Spiral Print" << endl;
+//     for (int i = 0; i < 12; i++)
+//     {
+//         cout << answer[i] << " ";
+//     }
+//     cout << endl;   
+    
        
-}
+// }
     
 ////PRINT LIKE WAVE
 // void wavePrint(int arr[][4], int n, int m){
